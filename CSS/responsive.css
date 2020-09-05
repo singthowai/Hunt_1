@@ -1,0 +1,1110 @@
+@media (min-width:320px) and (max-width:575px){
+    
+    .title p {
+	    width: auto;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    /*navbar css start*/
+    nav button:focus{
+        outline: 0;
+    }  
+    
+    nav button i{
+        color: #fff;
+    }
+    
+    nav ul{
+        background: #000;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    nav ul li a:hover::after{
+        width: 0;
+    }
+    
+    .navbar{
+        padding: 0;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    nav ul li .active::after{
+        width: 0;
+    }
+    /*navbar css end*/
+    
+    /*banner_part css start*/
+    #banner_part .banner .overlay{
+        padding-top: 180px;
+        padding-bottom: 140px;
+    }
+    
+    #banner_part .banner .overlay .banner_content h2 {
+	font-size: 30px;
+    }  
+    
+    #banner_part .banner .overlay .banner_content h1 {
+	font-size: 50px;
+    } 
+    #banner_part .banner .overlay .banner_content p {
+	width: auto;
+        font-size: 12px;
+    }
+    
+    #banner_part .banner .overlay .banner_content a{
+        padding: 20px 15px;  
+        font-size: 13px;
+    
+    }
+
+    /*banner_part css end*/
+    
+    /*banner_shape_part css_start*/
+    #banner_shape{
+        display: none;
+    }
+    /*banner_shape_part css_end*/
+    
+    /*about_part css_start*/
+    #about_part{
+        padding-top: 35px;
+    }
+    #about_part i{
+        display: none;
+    }
+    #about_part .shape{
+        display: none;
+    }
+    #about_part .shape_left{
+        display: none;
+    }
+    #about_part .item2{
+        text-align: center;
+    }
+    #about_part .img{
+        width: 280px;
+        height: 280px;
+        line-height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #about_part .img img{
+        width: 240px;
+        height: 240px;
+    }
+    #about_shape{
+        display: none;
+    }
+    /*about_part css_end*/
+    
+    /*portfolio_shape_part css_start*/
+    #portfolio_part{
+        margin-top: 10px;
+    }
+    #portfolio_shape{
+        display: none;
+    }
+    #portfolio_part .overlay{
+        padding: 50px 0px;
+    }    
+    /*portfolio_shape_part css_end*/
+    
+    
+    /*service_part css_start*/
+    #service_part .line{
+        display: none;
+    }
+    #service_part .item{
+        flex-direction: column;
+    }
+    #service_part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    #service_part .item .middle{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    #service_part .item .right{
+        width: 100%;
+    }
+    #service_part .item .right p{
+        font-size: 12px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    #service_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translateX(-50%);
+    }
+    #service_part ul li{
+        display: inline-block;
+    }
+    #service_part ul li button{
+        font-size: 0px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #service_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #service_part ul li button:focus{
+        outline: 0;
+    }
+    
+    
+    /*service_part css_end*/
+    
+    /*service_shape_part css_start*/
+    #service_shape{
+        display: none;
+    }
+    
+    
+    /*service_shape_part css_end*/
+    
+    
+    /*testi_part css_start*/
+    #testi_part .overlay{
+      padding: 30px 0px;
+    }
+    #testi_part .overlay .left{
+        height: auto;
+    }
+    #testi_part .line1 img{
+        display: none;
+    }
+    #testi_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    #testi_part ul li{
+        display: inline-block;
+    }
+    #testi_part ul li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #000;
+        margin: 5px;
+    }
+    #testi_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #testi_part ul li button:focus{
+        outline: 0;
+    }
+    #testi_part .overlay .right{
+        margin-top: 20px;
+    }
+    #testi_part .overlay .right:after{
+        width: 0;
+    }
+    #testi_part .overlay .right_slider .right .text{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #testi_part .overlay .left .item .img{
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+    }
+    #testi_part .overlay .left .slick-center .img{
+        transform: scale(1);
+    }
+    #testi_part .overlay .right_slider .right .text p{
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    #testi_part .test{
+        margin-left: -60px;
+    }
+    /*testi_part css_end*/
+    
+    /*testi_part_shape css_start*/
+    #testi_shape .shape{
+        display: none;
+    }
+    
+    /*testi_part_shape css_end*/
+    
+    /*portfolio_part_css_start*/
+    #pricing_part .item{
+        margin-bottom: 20px;
+    }
+    /*portfolio_part_css_end*/
+    
+    /*counter_part_css_start*/
+    #counter_part{
+        transform: skew(0deg);
+    
+    }
+    #counter_part .row{
+        flex-direction: column;
+    }
+    #counter_part .counter{
+        margin-bottom: 10px;
+    }
+    /*counter_part_css_end*/
+    
+    
+    /*team_part_css_start*/
+    #team_part .item{
+        margin-bottom: 20px;
+    }
+    /*team_part_css_end*/
+    
+    /*partner_part_css_start*/
+    #partner_part{
+        transform: skewY(0);
+    }
+    #partner_part .row{
+        flex-direction: column;
+    }
+    #partner_part .item{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*partner_part_css_end*/
+    
+    /*footer_top_part_css_start*/
+    #footer_top{
+        transform: skewY(0);
+    }
+    #footer_top img{
+        transform: skewY(0);
+    }
+    #footer_part .item{
+        margin-top: 0px;
+    }
+    #footer_part .item2{
+        margin-top: 100px;
+    }
+
+    /*footer_top_part_css_end*/    
+
+}
+
+@media (min-width:576px) and (max-width:767px){
+    
+    .title p {
+	    width: 440px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    
+    
+    /*navbar css start*/
+    nav button:focus{
+        outline: 0;
+    }  
+    
+    nav button i{
+        color: #fff;
+    }
+    
+    nav ul{
+        background: #000;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    nav ul li a:hover::after{
+        width: 0;
+    }
+    
+    .navbar{
+        padding: 0;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    nav ul li .active::after{
+        width: 0;
+    }
+    /*navbar css end*/
+    
+    /*banner_part css start*/
+    #banner_part .banner .overlay{
+        padding-top: 180px;
+        padding-bottom: 140px;
+    }
+    
+    #banner_part .banner .overlay .banner_content h2 {
+	font-size: 30px;
+    }  
+    
+    #banner_part .banner .overlay .banner_content h1 {
+	font-size: 50px;
+    } 
+    #banner_part .banner .overlay .banner_content p {
+	width: auto;
+        font-size: 12px;
+    }
+    
+    #banner_part .banner .overlay .banner_content a{
+        padding: 20px 15px;  
+        font-size: 13px;
+    
+    }
+
+    /*banner_part css end*/
+    
+    /*banner_shape_part css_start*/
+    #banner_shape{
+        display: none;
+    }
+    /*banner_shape_part css_end*/
+    
+    /*about_part css_start*/
+    #about_part{
+        padding-top: 35px;
+    }
+    #about_part i{
+        display: none;
+    }
+    #about_part .shape{
+        display: none;
+    }
+    #about_part .shape_left{
+        display: none;
+    }
+    #about_part .item2{
+        text-align: center;
+    }
+    #about_part .img{
+        width: 280px;
+        height: 280px;
+        line-height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #about_part .img img{
+        width: 240px;
+        height: 240px;
+    }
+    #about_shape{
+        display: none;
+    }
+    /*about_part css_end*/
+    
+    /*portfolio_shape_part css_start*/
+    #portfolio_part{
+        margin-top: 10px;
+    }
+    #portfolio_shape{
+        display: none;
+    }
+    #portfolio_part .overlay{
+        padding: 50px 0px;
+    }    
+    /*portfolio_shape_part css_end*/
+    
+    
+    /*service_part css_start*/
+    #service_part .line{
+        display: none;
+    }
+    #service_part .item{
+        flex-direction: column;
+    }
+    #service_part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    #service_part .item .middle{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    #service_part .item .right{
+        width: 100%;
+    }
+    #service_part .item .right p{
+        font-size: 13px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    #service_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translateX(-50%);
+    }
+    #service_part ul li{
+        display: inline-block;
+    }
+    #service_part ul li button{
+        font-size: 0px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #service_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #service_part ul li button:focus{
+        outline: 0;
+    }
+    
+    
+    /*service_part css_end*/
+    
+    /*service_shape_part css_start*/
+    #service_shape{
+        display: none;
+    }
+    
+    
+    /*service_shape_part css_end*/
+    
+    
+    /*testi_part css_start*/
+    #testi_part .overlay{
+      padding: 30px 0px;
+    }
+    #testi_part .overlay .left{
+        height: auto;
+    }
+    #testi_part .line1 img{
+        display: none;
+    }
+    #testi_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+    #testi_part ul li{
+        display: inline-block;
+    }
+    #testi_part ul li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-radius: 50%;
+        border: 1px solid #000;
+        margin: 5px;
+    }
+    #testi_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #testi_part ul li button:focus{
+        outline: 0;
+    }
+    #testi_part .overlay .right{
+        margin-top: 20px;
+    }
+    #testi_part .overlay .right:after{
+        width: 0;
+    }
+    #testi_part .overlay .right_slider .right .text{
+        text-align: center;
+        padding-top: 10px;
+    }
+    #testi_part .overlay .left .item .img{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    #testi_part .overlay .left .slick-center .img{
+        transform: scale(1);
+    }
+    #testi_part .overlay .right_slider .right .text p{
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    #testi_part .overlay .right_slider img{
+        margin-left: auto;
+    }
+    /*testi_part css_end*/
+    
+    /*testi_part_shape css_start*/
+    #testi_shape .shape{
+        display: none;
+    }
+    
+    /*testi_part_shape css_end*/
+    
+    /*portfolio_part_css_start*/
+    #pricing_part .item .price_details li{
+        margin-bottom: 0px;
+    }
+    #testi_part .overlay .right_slider .right .text p {
+	font-size: 14px;
+}
+    /*portfolio_part_css_end*/
+    
+    /*counter_part_css_start*/
+    #counter_part{
+        transform: skew(0deg);
+    
+    }
+    #counter_part .counter h3{
+        font-size: 20px;
+    }
+    #counter_part .counter p{
+        font-size: 14px;
+    }
+    #counter_part .counter{
+        padding: 5px 0px;
+    }
+    /*counter_part_css_end*/
+    
+    
+    /*team_part_css_start*/
+    #team_part .item{
+        margin-bottom: 20px;
+    }
+    /*team_part_css_end*/
+    
+    /*partner_part_css_start*/
+    #partner_part{
+        transform: skewY(0);
+    }
+    #partner_part .row{
+        flex-direction: column;
+    }
+    #partner_part .item{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*partner_part_css_end*/
+    
+    /*footer_top_part_css_start*/
+    #footer_top{
+        transform: skewY(0);
+    }
+    #footer_top img{
+        transform: skewY(0);
+    }
+    #footer_part .item{
+        margin-top: 90px;
+        border: 0;
+    }
+    /*footer_top_part_css_end*/    
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    
+    /*navbar css start*/
+    nav button:focus{
+        outline: 0;
+    }  
+    
+    nav button i{
+        color: #fff;
+    }
+    
+    nav ul{
+        background: #000;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    nav ul li a:hover::after{
+        width: 0;
+    }
+    
+    .navbar{
+        padding: 0;
+    }
+    .navbar-brand{
+        padding-left: 10px;
+    }
+    nav ul li .active::after{
+        width: 0;
+    }
+    /*navbar css end*/
+    
+    /*banner_part css start*/
+    #banner_part .banner .overlay{
+        padding-top: 180px;
+        padding-bottom: 140px;
+    }
+    
+    #banner_part .banner .overlay .banner_content h2 {
+	font-size: 30px;
+    }  
+    
+    #banner_part .banner .overlay .banner_content h1 {
+	font-size: 50px;
+    } 
+    #banner_part .banner .overlay .banner_content p {
+	width: 500px;
+        font-size: 14px;
+    }
+    
+    #banner_part .banner .overlay .banner_content a{
+        padding: 20px 15px;  
+        font-size: 13px;
+    
+    }
+
+    /*banner_part css end*/
+    
+    /*banner_shape_part css_start*/
+    #banner_shape{
+        display: none;
+    }
+    /*banner_shape_part css_end*/
+    
+    /*about_part css_start*/
+    #about_part .item{
+        padding: 20px;
+    }
+    #about_part .item h4{
+        font-size: 16px;
+    }
+    #about_part .item p{
+        font-size: 13px;
+    }
+     #about_part .item2 h4{
+        font-size: 16px;
+    }
+    #about_part .item2 p{
+        font-size: 13px;
+    }
+    #about_part .img{
+        width: 210px;
+        height: 210px;
+        line-height: 210px;
+    }
+    #about_part .img img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    
+    #about_shape{
+        display: none;
+    }
+    /*about_part css_end*/
+    
+    /*portfolio_shape_part css_start*/
+    #portfolio_part{
+        margin-top: 10px;
+    }
+    #portfolio_shape{
+        display: none;
+    }
+    #portfolio_part .overlay{
+        padding: 50px 0px;
+    }    
+    /*portfolio_shape_part css_end*/
+    
+    
+    /*service_part css_start*/
+    #service_part .line{
+        display: none;
+    }
+    #service_part .item{
+        flex-direction: column;
+    }
+    #service_part .item .left{
+        width: 100%;
+        justify-content: center;
+    }
+    #service_part .item .middle{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    #service_part .item .right{
+        width: 100%;
+    }
+    #service_part .item .right p{
+        font-size: 13px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    #service_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translateX(-50%);
+    }
+    #service_part ul li{
+        display: inline-block;
+    }
+    #service_part ul li button{
+        font-size: 0px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #service_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #service_part ul li button:focus{
+        outline: 0;
+    }
+    
+    
+    /*service_part css_end*/
+    
+    /*service_shape_part css_start*/
+    #service_shape{
+        display: none;
+    }
+    
+    
+    /*service_shape_part css_end*/
+    
+    
+    /*testi_part css_start*/
+   
+    /*testi_part css_end*/
+    
+    /*testi_part_shape css_start*/
+    #testi_shape .shape{
+        display: none;
+    }
+    
+    #testi_part .line1 img{
+        left: 255px;
+    }
+    #testi_part .right_slider img{
+        margin-left: auto;
+    }
+    /*testi_part_shape css_end*/
+    
+    /*portfolio_part_css_start*/
+
+    /*portfolio_part_css_end*/
+    
+    /*counter_part_css_start*/
+    #counter_part{
+        transform: skew(0deg);
+    
+    }
+    #counter_part .counter h3{
+        font-size: 20px;
+    }
+    #counter_part .counter p{
+        font-size: 14px;
+    }
+    #counter_part .counter{
+        padding: 5px 0px;
+    }
+    /*counter_part_css_end*/
+    
+    
+    /*team_part_css_start*/
+    #team_part .item{
+        margin-bottom: 20px;
+    }
+    /*team_part_css_end*/
+    
+    /*partner_part_css_start*/
+    #partner_part{
+        transform: skewY(0);
+    }
+    #partner_part .row{
+        flex-direction: column;
+    }
+    #partner_part .item{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*partner_part_css_end*/
+    
+    /*footer_top_part_css_start*/
+    #footer_top{
+        transform: skewY(0);
+    }
+    #footer_top img{
+        transform: skewY(0);
+    }
+    #footer_part .item{
+        margin-top: 90px;
+        border: 0;
+    }
+    /*footer_top_part_css_end*/    
+
+}
+
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+    
+    /*navbar css start*/
+    nav button:focus{
+        outline: 0;
+    }  
+    
+    nav button i{
+        color: #fff;
+    }
+    
+ 
+    
+    nav ul li a:hover::after{
+        width: 0;
+    }
+    
+    .navbar{
+        padding: 0;
+    }
+   
+    nav ul li .active::after{
+        width: 0;
+    }
+    /*navbar css end*/
+    
+    /*banner_part css start*/
+    #banner_part .banner .overlay{
+        padding-top: 180px;
+        padding-bottom: 140px;
+    }
+    
+    #banner_part .banner .overlay .banner_content h2 {
+	font-size: 30px;
+    }  
+    
+    #banner_part .banner .overlay .banner_content h1 {
+	font-size: 50px;
+    } 
+    #banner_part .banner .overlay .banner_content p {
+	width: 500px;
+        font-size: 14px;
+    }
+    
+    #banner_part .banner .overlay .banner_content a{
+        padding: 20px 15px;  
+        font-size: 13px;
+    
+    }
+
+    /*banner_part css end*/
+    
+    /*banner_shape_part css_start*/
+    #banner_shape{
+        display: none;
+    }
+    /*banner_shape_part css_end*/
+    
+    /*about_part css_start*/
+    #about_part .item{
+        padding: 20px;
+    }
+    #about_part .item h4{
+        font-size: 16px;
+    }
+    #about_part .item p{
+        font-size: 13px;
+    }
+     #about_part .item2 h4{
+        font-size: 16px;
+    }
+    #about_part .item2 p{
+        font-size: 13px;
+    }
+    #about_part .img{
+        width: 210px;
+        height: 210px;
+        line-height: 210px;
+    }
+    #about_part .img img{
+        width: 180px;
+        height: 180px;
+    }
+    
+    
+    #about_shape{
+        display: none;
+    }
+    /*about_part css_end*/
+    
+    /*portfolio_shape_part css_start*/
+    #portfolio_part{
+        margin-top: 10px;
+    }
+    #portfolio_shape{
+        display: none;
+    }
+    #portfolio_part .overlay{
+        padding: 50px 0px;
+    }    
+    /*portfolio_shape_part css_end*/
+    
+    
+    /*service_part css_start*/
+    #service_part .line{
+        display: none;
+    }
+  
+
+  
+    #service_part ul{
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translateX(-50%);
+    }
+    #service_part ul li{
+        display: inline-block;
+    }
+    #service_part ul li button{
+        font-size: 0px;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #service_part ul .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+    #service_part ul li button:focus{
+        outline: 0;
+    }
+    
+    
+    /*service_part css_end*/
+    
+    /*service_shape_part css_start*/
+    #service_shape{
+        display: none;
+    }
+    
+    
+    /*service_shape_part css_end*/
+    
+    
+    /*testi_part css_start*/
+   
+    /*testi_part css_end*/
+    
+    /*testi_part_shape css_start*/
+    #testi_shape .shape{
+        display: none;
+    }
+    
+    #testi_part .line1 img{
+        
+    }
+    #testi_part .right_slider img{
+        margin-left: auto;
+    }
+    /*testi_part_shape css_end*/
+    
+    /*portfolio_part_css_start*/
+
+    /*portfolio_part_css_end*/
+    
+    /*counter_part_css_start*/
+    #counter_part{
+        transform: skew(0deg);
+    
+    }
+    #counter_part .counter h3{
+        font-size: 20px;
+    }
+    #counter_part .counter p{
+        font-size: 14px;
+    }
+    #counter_part .counter{
+        padding: 5px 0px;
+    }
+    /*counter_part_css_end*/
+    
+    
+    /*team_part_css_start*/
+    #team_part .item{
+        margin-bottom: 20px;
+    }
+    /*team_part_css_end*/
+    
+    /*partner_part_css_start*/
+    #partner_part{
+        transform: skewY(0);
+    }
+    #partner_part .row{
+        flex-direction: column;
+    }
+    #partner_part .item{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*partner_part_css_end*/
+    
+    /*footer_top_part_css_start*/
+    #footer_top{
+        transform: skewY(0);
+    }
+    #footer_top img{
+        transform: skewY(0);
+    }
+    #footer_part .item{
+        margin-top: 90px;
+        border: 0;
+    }
+    /*footer_top_part_css_end*/    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
